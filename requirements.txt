@@ -1,0 +1,36 @@
+# CiteAware — Python dependencies
+# Install: pip install -r requirements.txt
+
+# Core ML
+torch>=2.1.0
+torchvision>=0.16.0
+
+# Transformers & NLP
+transformers>=4.40.0
+tokenizers>=0.19.0
+accelerate>=0.27.0
+datasets>=2.18.0
+sentencepiece>=0.2.0   # required by some tokenizers
+
+# Scientific PLM (auto-downloaded at runtime)
+# allenai/scibert_scivocab_uncased  — via transformers hub
+
+# Graph
+scipy>=1.12.0
+numpy>=1.26.0
+
+# Classical ML utilities
+scikit-learn>=1.4.0
+
+# NLP preprocessing
+nltk>=3.8.1
+textblob>=0.18.0
+
+# Data handling
+pandas>=2.2.0
+
+# Progress bars
+tqdm>=4.66.0
+
+# Hugging Face scheduler (included in transformers but listed explicitly)
+# get_linear_schedule_with_warmup is in transformers.optimization

@@ -369,4 +369,3 @@ metadata file. This produces fully external, community-standard ground truth.
 ## License
 
 MIT License. See `LICENSE` for details.
-# CiteAware-EMNLP-26
